@@ -1,4 +1,4 @@
-```css
+
 * {
     box-sizing: border-box;
 }
@@ -17,7 +17,7 @@ header {
     background-color: #f8f9fa;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -45,4 +45,3 @@ footer {
     position: fixed;
     bottom: 0;
 }
-```
