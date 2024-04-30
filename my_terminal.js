@@ -1,3 +1,9 @@
+const commands = {
+    help() {
+        term.echo(`List of available commands: ${help}`);
+    }
+}
+
 const term = $('body').terminal(commands, {
     greetings: false
 });
@@ -27,11 +33,6 @@ function trim(str) {
     return str.replace(/[\n\s]+$/, '');
 }
 
-const commands = {
-    help() {
-        term.echo(`List of available commands: ${help}`);
-    }
-}
 
 const formatter = new Intl.ListFormat('en', {
     style: 'long',
