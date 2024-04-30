@@ -29,16 +29,14 @@ function trim(str) {
 
 const commands = {
     help() {
-        term.echo('List of available commands: ${help}');
+        term.echo(`List of available commands: ${help}`);
     }
 }
-
-const command_list = Object.keys(commands);
-const help = formatter.format(command_list);
-
-
 
 const formatter = new Intl.ListFormat('en', {
     style: 'long',
     type: 'conjuction',
 })
+
+const command_list = Object.keys(commands);
+const help = formatter.format(command_list);
