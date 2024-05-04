@@ -1,7 +1,31 @@
+const commands = {
+    help() {
+        term.echo(`List of available commands: ${help}`);
+    },
+    echo(...args) {
+        term.echo(args.join(' '));
+    }
+};
+
+<script src="https://cdn.jsdelivr.net/npm/figlet/lib/figlet.js"></script>
+
+const term = $('body').terminal(commands, {
+    greetings: false
+});
+
+term.pause();
+
+function ready() {
+    term.echo(() => render('Terminal Page')).resume();
+ }
+ 
+
+
 const font = 'Doom';
 figlet.defaults({ fontPath: 'https://unpkg.com/figlet/fonts'});
 figlet.preloadFonts([font], ready);
  
+
 
 function render(text) {
     const cols = term.cols();
@@ -25,26 +49,10 @@ const formatter = new Intl.ListFormat('en', {
 const command_list = Object.keys(commands);
 const help = formatter.format(command_list);
 
-const term = $('body').terminal(commands, {
-    greetings: false,
-    checkArity: false,
-});
-
-term.pause();
-
-function ready() {
-   term.echo(() => render('Terminal Portfolio')).resume();
-}
 
 
-const commands = {
-    help() {
-        term.echo(`List of available commands: ${help}`);
-    },
-    echo(...args) {
-        term.echo(args.join(' '));
-    }
-};
+
+
 
 
 
