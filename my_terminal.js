@@ -1,11 +1,18 @@
 const commands = {
     help() {
         term.echo(`List of available commands: ${help}`);
+    },
+    echo(...args) {
+        term.echo(args.join(' '));
     }
-}
+};
+
+const command_list = Object.keys(commands);
+const help = formatter.format(command_list);
 
 const term = $('body').terminal(commands, {
-    greetings: false
+    greetings: false,
+    checkArity: false,
 });
 
 term.pause();
