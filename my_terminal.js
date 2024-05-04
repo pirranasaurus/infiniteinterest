@@ -1,12 +1,3 @@
-const commands = {
-    help() {
-        term.echo(`List of available commands: ${help}`);
-    },
-    echo(...args) {
-        term.echo(args.join(' '));
-    }
-};
-
 const command_list = Object.keys(commands);
 const help = formatter.format(command_list);
 
@@ -20,6 +11,16 @@ term.pause();
 function ready() {
    term.echo(() => render('Terminal Portfolio')).resume();
 }
+
+
+const commands = {
+    help() {
+        term.echo(`List of available commands: ${help}`);
+    },
+    echo(...args) {
+        term.echo(args.join(' '));
+    }
+};
 
 
 const font = 'Doom';
@@ -45,6 +46,3 @@ const formatter = new Intl.ListFormat('en', {
     style: 'long',
     type: 'conjuction',
 })
-
-const command_list = Object.keys(commands);
-const help = formatter.format(command_list);
