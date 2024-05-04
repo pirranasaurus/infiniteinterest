@@ -7,8 +7,6 @@ const commands = {
     }
 };
 
-<script src="https://cdn.jsdelivr.net/npm/figlet/lib/figlet.js"></script>
-
 const term = $('body').terminal(commands, {
     greetings: false
 });
@@ -45,14 +43,4 @@ const formatter = new Intl.ListFormat('en', {
     style: 'long',
     type: 'conjuction',
 })
-
-const command_list = Object.keys(commands);
-const help = formatter.format(command_list);
-
-
-
-
-
-
-
 
