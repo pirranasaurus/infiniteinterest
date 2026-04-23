@@ -1,10 +1,16 @@
 ---
 layout: default
-description: Notes on systems, Linux, and cybersecurity — learning in public.
+description: Cyber Security Manager sharing labs, tools, and lessons from hands-on security and home-lab tinkering.
 ---
 
-# A tech journey, in public
+# Learning in public
 
-I’m a systems manager who likes to tinker: Raspberry Pis, old PCs, and more Linux installs than I strictly need. This site is where I’ll share what I learn as I dig deeper into **security-minded** tech — labs, tooling, and lessons from the messy middle of the learning curve.
+I’m a Cyber Security Manager by day, but at heart I’m still a tinkerer.
+
+I spend my days working on security strategy, configuration, risk, and communication — and I tinker by night. Raspberry Pis, repurposed PCs, Linux installs, home labs, cloud experiments… if it helps me understand how systems really work (and fail), I’m drawn to it.
+
+This site is where I share what I learn along the way: security labs, tools, experiments, and lessons from the messy middle of the learning curve. Sometimes that’s refining a control or testing a configuration; other times it’s breaking something, fixing it, and understanding why it behaved the way it did.
+
+If you enjoy learning by doing, exploring the practical side of security, or seeing how hands‑on experimentation feeds into real‑world cyber leadership, you’ll feel at home here.
 
 New posts land on the [blog](/blog/); you can also follow [RSS](/feed.xml).
