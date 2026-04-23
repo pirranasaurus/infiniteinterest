@@ -1,0 +1,23 @@
+title: Infinite Interest
+description: Notes on a tech journey — systems, Linux, and cybersecurity.
+url: https://infiniteinterest.uk
+baseurl: ""
+permalink: pretty
+
+author:
+  name: pirranasaurus
+
+plugins:
+  - jekyll-feed
+
+feed:
+  posts_limit: 20
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - test.txt
+
+markdown: kramdown
