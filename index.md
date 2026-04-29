@@ -1,16 +1,14 @@
 ---
 layout: default
-description: Cyber Security Manager sharing labs, tools, and lessons from hands-on security and home-lab tinkering.
+description: Notes on learning tech by doing — experiments, home lab, security, and the bits in between.
 ---
 
-# Infinite interest - the best way to learn
+# Infinite interest
 
-I’m a Cyber Security Manager by day, but at heart I’m still a tinkerer.
+I love tech and I’m always hungry to learn — I’m just not brilliant at writing it all down. This site is the nudge: a place to capture the highs and lows so they don’t vanish.
 
-I spend my days working on security strategy, configuration, risk, and communication — and I tinker by night. Raspberry Pis, repurposed PCs, Linux installs, home labs, cloud experiments… if it helps me understand how systems really work (and fail), I’m drawn to it.
+You’ll find experiments, things I’ve been building, tools I’ve used, and sometimes a take on the news (especially in cyber). There’s more home lab on the way, and I’ll share my take on AI too. How it helps at home, how it’s different at work, and where the gaps are.
 
-This site is where I share what I learn along the way: security labs, tools, experiments, and lessons from the messy middle of the learning curve. Sometimes that’s refining a control or testing a configuration; other times it’s breaking something, fixing it, and understanding why it behaved the way it did.
+If any of it helps you play and learn as well, that’s a win.
 
-If you enjoy learning by doing, exploring the practical side of security, or seeing how hands‑on experimentation feeds into real‑world cyber leadership, you’ll feel at home here.
-
-New posts land on the [blog](/blog/); you can also follow [RSS](/feed.xml).
+**New posts:** [blog](/blog/) · **RSS:** [feed](/feed.xml) · **More about me:** [about](/about/)
